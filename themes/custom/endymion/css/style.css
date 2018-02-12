@@ -1,0 +1,54 @@
+.main-header .container {
+  width: 100%;
+
+  padding: 40px;
+  background-color: #ffd0d0;
+}
+
+.logo {
+  width: 20%;
+
+}
+
+.main-navigation {
+  margin: 40px;
+
+}
+
+.main-navigation li{
+  float: left;
+}
+
+.main-navigation a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+.article-list {
+  margin: 0px 40px;
+}
+
+.article-list h4 a {
+  color: #464646;
+  text-decoration: none;
+}
+
+.article-list .view-row {
+  margin: 0px 40px;
+}
+
+.article-list p {
+  line-height: 1.5;
+}
+
+.article-list .views-field-view-node a {
+  color: red;
+  text-decoration: none;
+}
+
+.director strong, .actors strong, .description strong {
+  font-weight: bold;
+  font-size: 24px;
+}

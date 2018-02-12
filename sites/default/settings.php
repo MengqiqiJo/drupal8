@@ -784,6 +784,7 @@ $settings['entity_update_batch_size'] = 50;
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
+
 $databases['default']['default'] = array (
   'database' => 'tut_d8_01',
   'username' => 'root',
